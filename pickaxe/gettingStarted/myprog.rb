@@ -125,9 +125,3 @@ animals.each {|animals| puts animals}  #배열의 내용을 반복한다.
 #a에서 e까지의 범위 가가에 대해 블록을 실행한다.
 ('a'..'e').each { |char| print char }
 puts
-
-
-#읽기와 쓰기
-# puts는 줄 바꿈 문자를 문자열 끝 부분에 더해서 출력 해주고, print는 줄 바꿈 문자없이 문자열만 출력해준다.
-# printf는 매개 변수를 특정 형식 문자열에 따라서 제어하여 출력해 준다.
-printf("Number: %5.2f,\nString: %s\n", 1.23, "hello")
